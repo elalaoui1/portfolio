@@ -5,6 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -268,3 +269,28 @@
   new PureCounter();
 
 })()
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+  const body = document.body;
+  body.classList.toggle('dark');
+
+  // Store the dark mode preference in local storage
+  const isDarkMode = body.classList.contains('dark');
+  localStorage.setItem('darkMode', isDarkMode);
+}
+
+// Function to initialize dark mode based on stored preference
+function initializeDarkMode() {
+  const isDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+  const body = document.body;
+  if (isDarkMode) {
+      body.classList.add('dark');
+  } else {
+      body.classList.remove('dark');
+  }
+}
+
+// Call the initialize function when the page loads
+initializeDarkMode();
+

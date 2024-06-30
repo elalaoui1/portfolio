@@ -13,6 +13,9 @@
     "typewriter-effect": "^2.21.0",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0",
+    "vue-typed": "^2.1.4",
+    "vue-typed-js": "^0.1.2",
+    "vue-typewriter": "^2.2.1",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
