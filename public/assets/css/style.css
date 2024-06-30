@@ -393,8 +393,16 @@ h6 {
     padding: 25px;
     /* padding-left: 160px; */
    }
+   
 }
-@media (max-width: 375px) {
+
+@media (max-width: 820px) and (min-width: 768px) {
+  .wrapper{
+    height: 400px !important;
+    width: 641px !important;
+}
+}
+@media (max-width: 440px) {
 
   #hero-all{
 
