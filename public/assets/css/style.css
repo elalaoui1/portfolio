@@ -343,7 +343,55 @@ h6 {
 
 
 
+@media (min-width: 1250px) {
+  .wrapper .images .img-2 {
+    height: 110% !important;
+    }
+    }
+@media (max-width: 1249px) {
+    .wrapper .images .img-2 {
+      height: 109% !important;
+    }
+  }
+  @media (max-width: 1230px) {
+    .wrapper .images .img-2 {
+      height: 108% !important;
+    }
+  }
+  @media (max-width: 1210px) {
+    .wrapper .images .img-2 {
+      height: 107% !important;
+    }
+  }
+  @media (max-width: 1180px) {
+    .wrapper .images .img-2 {
+      height: 105% !important;
+    }
+  }
+  @media (max-width: 1150px) {
+    .wrapper .images .img-2 {
+      height: 103% !important;
+    }
+  }
+  @media (max-width: 1110px) {
+    .wrapper .images .img-2 {
+      height: 100% !important;
+    }
+  }
 
+@media (max-width: 1080px) {
+  .wrapper .images .img-2 {
+    height: 100% !important;
+  }
+}
+@media (max-width: 1024px) {
+  #hero-all{
+    flex-direction: column;
+  }
+  .wrapper .images .img-2 {
+    height: 125% !important;
+  }
+  }
 
 @media (max-width: 992px) {
   #hero {
@@ -362,11 +410,7 @@ h6 {
   }
 }
 
-@media (max-width: 1024px) {
-#hero-all{
-  flex-direction: column;
-}
-}
+
 @media (max-width: 991px) {
   #header {
     /* width: 300px; */
@@ -395,12 +439,35 @@ h6 {
    }
    
 }
-
+@media (min-width: 821px) and (max-width: 991px) {
+  .wrapper{
+    height: 313px !important;
+    width: 583px !important;
+}
+}
 @media (max-width: 820px) and (min-width: 768px) {
   .wrapper{
-    height: 400px !important;
-    width: 641px !important;
+    height: 312px !important;
+    width: 582px !important;
 }
+}
+@media (min-width: 443px) and (max-width: 767px) {
+  .wrapper{
+    height: 220px !important;
+    width: 412px !important;
+}
+
+.slider .drag-line::before {
+  height: 85px !important;
+
+}
+.slider .drag-line::after {
+height: 363px !important;
+}
+.slider .drag-line span {
+top:21% !important;
+}
+
 }
 @media (max-width: 440px) {
 
@@ -1243,7 +1310,7 @@ section {
 }
 .wrapper .images .img-2{
   position: absolute;
-  height: 107%;
+  height: 104%;
   width: 50%;
 
   /* filter: blur(5px); */
