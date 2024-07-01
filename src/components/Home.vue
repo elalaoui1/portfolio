@@ -11,6 +11,7 @@
         <a href="https://www.instagram.com/a._.elalaoui/" target="_new" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/in/elalaoui-abdelkarim-5b1600252/" target="_new" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/karim2251" target="_new" class="github"><i class="bx bxl-github"></i></a>
+        <button class="btn-my-cv" @click="downloadCV"><span class="btn-text">Get My CV</span></button>
       </div>
     </div>
   </section>
@@ -30,7 +31,7 @@
 </template>
 
 <script>
-export default {
+export default {    
   data() {
     return {
      
@@ -45,14 +46,37 @@ export default {
         dragLine.style.left = sliderVal + "%";
         img.style.width = sliderVal + "%";
       }
+      
   },
   methods: {
-  
+    downloadCV(){
+        const link = document.createElement('a');
+        link.href = '/assets/ELALAOUI_ABDELKARIM_CV.pdf'; 
+        link.download = 'ELALAOUI_ABDELKARIM_CV.pdf'; 
+        link.click();
+      
   }
+}
 }
 </script>
 
 <style>
+
+.btn-my-cv{
+  position: relative;
+  top: -15px;
+  /* right: 20px; */
+  float: right;
+  padding: 10px;
+  font-weight: 700;
+  color: #0563bb;
+  border: 2px solid #0563bb;
+  border-radius: 10px;
+  /* width: 110px; */
+}
+.btn-my-cv:hover{
+  border: 2px dashed #0563bb;
+}
 
 
 </style>
