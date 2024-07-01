@@ -1,7 +1,7 @@
 <template>
   <section id="hero-all">
   <section id="hero" class="d-flex flex-row">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container" data-aos="zoom-in" data-aos-delay="50">
       <p>Hi, I'm <span> ELALAOUI Abdelkarim </span> <br>I’m a web developer who designs web applications with optimized efficiency and user experience, solving problems in the back end.</p>
      
      
@@ -15,7 +15,7 @@
       </div>
     </div>
   </section>
-  <div class="wrapper" data-aos="zoom-in" data-aos-delay="100">
+  <div class="wrapper" data-aos="zoom-in" data-aos-delay="50">
       <div class="images">
         <div class="img-1"></div>
         <div class="img-2"></div>
