@@ -65,7 +65,7 @@ export default {
 .btn-my-cv{
   position: relative;
   top: -15px;
-  /* right: 20px; */
+  right: 20px;
   float: right;
   padding: 10px;
   font-weight: 700;

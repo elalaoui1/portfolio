@@ -5,7 +5,7 @@
 <nav id="navbar" class="navbar nav-menu">
   <ul>
     <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/'}" @click="setActuve('/')" to="/"><i class="bx bx-home"></i> <span>Home</span></router-link></li>
-    <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/about'}" @click="setActuve('/about')"  to="/about"><i class="bx bx-user"></i> <span>About</span></router-link></li>
+    <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/about'}" @click="setActuve('/about')"  to="/about"><i class="bx bx-user"></i> <span>Skills</span></router-link></li>
     <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/resume'}" @click="setActuve('/resume')" to="/resume"><i class="bx bx-file-blank"></i><span>Resume</span></router-link></li>
     <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/works'}" @click="setActuve('/works')" to="/works"><i class="bx bx-book-content"></i> <span>Works</span></router-link></li>
     <!-- <li><router-link class="nav-link scrollto" :class="{'active':activeLink==='/services'}" @click="setActuve('/services')" to="/services"><i class="bx bx-server"></i><span>Services</span></router-link></li> -->

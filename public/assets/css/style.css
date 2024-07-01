@@ -493,7 +493,14 @@ top:21% !important;
 
 }
 }
-
+@media (max-width: 395px) {
+  .btn-my-cv {
+    top: -13px !important;
+    right: -15px !important;
+    width: 90px !important;
+    font-size: 13px !important;
+  }
+}
 @media (max-width: 365px) {
   .btn-my-cv {
     top: -37px !important;
@@ -1291,8 +1298,8 @@ section {
 
   .wrapper{
   position: relative;
-  height: 400px;
-  width: 750px;
+  height: 350px;
+  width:575px;
   overflow: hidden;
   background: #010325;
   border: none;
