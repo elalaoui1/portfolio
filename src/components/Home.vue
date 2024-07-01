@@ -15,7 +15,7 @@
       </div>
     </div>
   </section>
-  <div class="wrapper">
+  <div class="wrapper" data-aos="zoom-in" data-aos-delay="100">
       <div class="images">
         <div class="img-1"></div>
         <div class="img-2"></div>
