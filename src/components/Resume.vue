@@ -4,63 +4,16 @@
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
+    <h1># Resume</h1>
 
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div>
+        <div v-for="s in study" :key="s" class="card" :class="s.class" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" :data-aos-delay="s.cpt">
+          <div class="head">
+            <div class="logo"><img :src="s.img" alt=""></div>
+            <div class="title">{{ s.title }}</div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
+          <div class="content">
+            <p>{{ s.place }}</p>
           </div>
         </div>
 
@@ -72,10 +25,99 @@
 
 <script>
 export default {
-
+data(){
+  return{
+    study:[
+    {title:"Développement Digitale",img:'/assets/img/ofppt.jpg',place:'ISTA Ouarzazate (2022 - 2024)',class:'left',cpt:50},
+      {title:"Bachelor's degree in physical sciences",img:'/assets/img/school.png',place:' Lycée Qualifiant Bouzeroual (2020 - 2021)',class:'right',cpt:150},
+    
+    ]
+  }
+}
 }
 </script>
 
 <style>
+#main{
+  width: 1000px;
+}
 
+.resume .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resume .container h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: start;
+    padding-left: 20px;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+    background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+  
+  }
+.resume .container .card {
+  width: auto;
+  max-width: 45%; 
+  /* width:45%; */
+  background: linear-gradient(135deg, #2b1e4d 50%, #1F2937 50%);
+  border-radius: 10px;
+  padding: 25px 15px 15px 15px;
+  margin-bottom: 10px;
+  clip-path: polygon(4% 7%, 100% 5%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0);
+  position: relative;
+}
+
+.resume .container .card.right {
+  align-self: flex-end;
+}
+
+.resume .container .card .head{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 10px;
+
+}
+.resume .container .card .head .title{
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+.resume .container .card .head .logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.resume .container .card .content{
+  color: rgb(161, 161, 161);
+  font-size: 16px;
+  text-align: start;
+  padding: 15px 0px 0px 20px;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #main{
+  width: 800px;
+}
+}
+@media screen and (max-width: 768px) {
+.resume .container .card.right {
+    align-self:flex-start;
+}
+  .resume .container .card {
+    max-width: 100%;
+  }
+  #main{
+  width: 350px;
+}
+}
 </style>

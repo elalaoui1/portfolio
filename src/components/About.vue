@@ -71,19 +71,38 @@ data() {
   justify-content: space-between;
   align-items: center;
   /* gap: 10px; */
+     
+
 
 }
 .topics .card .title{
   font-size: 17px;
   font-weight: 600;
   text-transform: capitalize;
+  transition: all 0.3s ease-in-out 0.1s;
+}
 
-  
+.topics .card .icon{
+  transition: all 0.3s ease-in-out 0.1s;
 
 }
 .topics .card:hover{
 
   outline: 2px dashed #3b82f6;
+}
+.topics .card:hover .icon{
+  transform: scale(1.5) translateY(-20px);
+
+}
+.topics .card:hover .icon img{
+  animation: bouncing 0.5s .3s; 
+
+}
+.topics .card:hover .title{
+  letter-spacing: 2px;
+}
+.topics .card .icon img{
+  object-fit: contain;
 
 }
 .topics h1{
@@ -99,6 +118,12 @@ data() {
     text-transform: capitalize;
   
   }
+  @keyframes bouncing {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
 
   @media screen and (max-width: 970px) {
   :is(.topics) .card {
