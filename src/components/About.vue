@@ -111,8 +111,7 @@ data() {
     margin-bottom: 20px;
     width: 100%;
     text-align: start;
-    padding-left: 20px;
-    background: linear-gradient(to right, #3498db, #9b59b6);
+    background: linear-gradient(to top,#9b59b6 , #3498db);
     background-clip: text;
     color: transparent;
     text-transform: capitalize;

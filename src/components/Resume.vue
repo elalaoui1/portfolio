@@ -54,8 +54,7 @@ data(){
     margin-bottom: 20px;
     width: 100%;
     text-align: start;
-    padding-left: 20px;
-    background: linear-gradient(to right, #3498db, #9b59b6);
+    background: linear-gradient(to top,#9b59b6 , #3498db);
     background-clip: text;
     color: transparent;
     text-transform: capitalize;
@@ -71,6 +70,7 @@ data(){
   margin-bottom: 10px;
   clip-path: polygon(4% 7%, 100% 5%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0);
   position: relative;
+  
 }
 
 .resume .container .card.right {
@@ -89,7 +89,7 @@ data(){
     font-weight: 900;
     font-size: 17px;
     text-transform: capitalize;
-
+    
 }
 .resume .container .card .head .logo img{
   width: 50px;

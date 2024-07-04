@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "axios": "^1.6.7",
     "typewriter-effect": "^2.21.0",
     "vue": "^3.4.19",
