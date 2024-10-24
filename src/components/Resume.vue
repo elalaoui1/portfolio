@@ -64,7 +64,7 @@ data(){
   width: auto;
   max-width: 45%; 
   /* width:45%; */
-  background: linear-gradient(135deg, #2b1e4d 50%, #1F2937 50%);
+  background: linear-gradient(135deg, #1f1241 50%, #00010D 50%);
   border-radius: 10px;
   padding: 25px 15px 15px 15px;
   margin-bottom: 10px;
