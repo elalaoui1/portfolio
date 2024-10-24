@@ -10,12 +10,14 @@
         <a href="https://www.facebook.com/profile.php?id=100073965961534" target="_new" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/a._.elalaoui/" target="_new" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/in/elalaoui-abdelkarim-5b1600252/" target="_new" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/karim2251" target="_new" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://github.com/elalaoui1" target="_new" class="github"><i class="bx bxl-github"></i></a>
         <button class="btn-my-cv" @click="downloadCV"><span class="btn-text">Get My CV</span></button>
       </div>
     </div>
   </section>
   <div class="wrapper" data-aos="zoom-in" data-aos-delay="50">
+    <div class="circle"></div>
+
       <img src="/assets/img/im/home-perfil.png" alt="" width="300">
     </div>
   </section>
@@ -72,5 +74,21 @@ export default {
   border: 2px dashed #0563bb;
 }
 
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 400px;
+  height:400px;
+  background-color: #838383ea; /* Adjust the color as needed */
+  border-radius: 50%;
+  z-index: -1; /* Ensure the circle is behind the image */
+  transform: translate(-50%, -50%);
+}
 
 </style>
