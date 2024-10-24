@@ -8,8 +8,8 @@ const routers=[
         component:()=>import('../components/Home.vue')
     },
     {
-        path:"/about",
-        name:"About",
+        path:"/skills",
+        name:"skills",
         component:()=>import('../components/About.vue')
     },
     {
@@ -17,32 +17,24 @@ const routers=[
         name:"Contact",
         component:()=>import('../components/Contact.vue')
     },
-    {
-        path:"/details",
-        name:"Details",
-        component:()=>import('../components/Details.vue')
-    },
+
     {
         path:"/resume",
         name:"Resume",
         component:()=>import('../components/Resume.vue')
     },
+
     {
-        path:"/services",
-        name:"Services",
-        component:()=>import('../components/Services.vue')
-    },
-    {
-        path:"/works",
-        name:"Works",
+        path:"/projects",
+        name:"projects",
         component:()=>import('../components/Works.vue')
     },
     // catchall 404
-    // {
-	//     path:"/:catchAll(.*)",
-	//     name:"NotFound",
-	//     component:NotFound
-    // }
+    {
+	    path:"/:catchAll(.*)",
+	    name:"NotFound",
+        component:()=>import('../components/Home.vue')
+    }
 ];
 
 const router = createRouter({
