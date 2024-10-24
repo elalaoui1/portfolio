@@ -1,5 +1,5 @@
 <template>
-  <section id="hero-all">
+  <section id="hero-all" class="hero-all">
   <section id="hero" class="d-flex flex-row">
     <div class="container" data-aos="zoom-in" data-aos-delay="50">
       <p>Hi, I'm <span> ELALAOUI Abdelkarim </span> <br>I’m a web developer who designs web applications with optimized efficiency and user experience, solving problems in the back end.</p>
@@ -16,16 +16,7 @@
     </div>
   </section>
   <div class="wrapper" data-aos="zoom-in" data-aos-delay="50">
-      <div class="images">
-        <div class="img-1"></div>
-        <div class="img-2"></div>
-      </div>
-      <div class="slider">
-        <div class="drag-line">
-          <span></span>
-        </div>
-        <input type="range" min="0" max="100" value="50">
-      </div>
+      <img src="/assets/img/im/home-perfil.png" alt="" width="300">
     </div>
   </section>
 </template>
@@ -36,6 +27,9 @@ export default {
     return {
      
     };
+  },
+  components: {
+   
   },
   mounted() {
     const slider = document.querySelector(".slider input");
@@ -51,7 +45,7 @@ export default {
   methods: {
     downloadCV(){
         const link = document.createElement('a');
-        link.href = '/assets/ELALAOUI_ABDELKARIM_CV.pdf'; 
+        link.href = '/assets/ELALAOUI_ABDELKARIM_EN.pdf'; 
         link.download = 'ELALAOUI_ABDELKARIM_CV.pdf'; 
         link.click();
       
