@@ -23,21 +23,22 @@ export default {
 data() {
   return {
     data: [{name: 'HTML', icon: '/assets/icons/html.svg',cpt: 5},
-    {name: 'CSS', icon: '/assets/icons/css.svg',cpt: 50},
-    {name: 'JS', icon: '/assets/icons/js.svg' ,cpt: 100},
-    {name: 'JGUERY', icon: '/assets/icons/jquery.svg' ,cpt:150},
-    {name: 'BOOTSTRAP 5', icon: '/assets/icons/bootstrap.svg' ,cpt: 200},
-    {name: 'TAILWIND CSS', icon: '/assets/icons/tailwind-css.svg' ,cpt: 250},
-    {name: 'VUE JS', icon: '/assets/icons/vuejs.svg' ,cpt: 300},
-    {name: 'EXPRESS JS', icon: '/assets/icons/express-js.svg' ,cpt: 350},
-    {name: 'LARAVEL', icon: '/assets/icons/laravel.svg' ,cpt: 400},
-    {name: 'MYSQL', icon: '/assets/icons/mysql.svg' ,cpt: 450},
-    {name: 'MONGODB', icon: '/assets/icons/mongodb.svg' ,cpt: 500},
-    {name: 'DOCKER', icon: '/assets/icons/docker.svg' ,cpt: 550},
-    {name: 'GIT', icon: '/assets/icons/git.svg' ,cpt: 600},
-    {name: 'GITHUB', icon: '/assets/icons/github.svg' ,cpt: 650},
-    {name: 'STACK OVERFLOW', icon: '/assets/icons/stack-overflow.svg' ,cpt: 700},
-    {name: 'LINUX', icon: '/assets/icons/linux.svg',cpt:750},],
+    {name: 'CSS', icon: '/assets/icons/css.svg',cpt: 10},
+    {name: 'JS', icon: '/assets/icons/js.svg' ,cpt: 20},
+    {name: 'JGUERY', icon: '/assets/icons/jquery.svg' ,cpt:30},
+    {name: 'BOOTSTRAP 5', icon: '/assets/icons/bootstrap.svg' ,cpt: 40},
+    {name: 'TAILWIND CSS', icon: '/assets/icons/tailwind-css.svg' ,cpt: 50},
+    {name: 'VUE JS', icon: '/assets/icons/vuejs.svg' ,cpt: 60},
+    {name: 'REACT JS', icon: '/assets/icons/reactjs.svg' ,cpt: 60},
+    {name: 'EXPRESS JS', icon: '/assets/icons/express-js.svg' ,cpt: 70},
+    {name: 'LARAVEL', icon: '/assets/icons/laravel.svg' ,cpt: 80},
+    {name: 'MYSQL', icon: '/assets/icons/mysql.svg' ,cpt: 90},
+    {name: 'MONGODB', icon: '/assets/icons/mongodb.svg' ,cpt: 100},
+    {name: 'DOCKER', icon: '/assets/icons/docker.svg' ,cpt: 110},
+    {name: 'GIT', icon: '/assets/icons/git.svg' ,cpt: 120},
+    {name: 'GITHUB', icon: '/assets/icons/github.svg' ,cpt: 130},
+    {name: 'STACK OVERFLOW', icon: '/assets/icons/stack-overflow.svg' ,cpt: 140},
+    {name: 'LINUX', icon: '/assets/icons/linux.svg',cpt:150},],
   };
 },
 }
@@ -60,7 +61,7 @@ data() {
   margin: 10px;
   padding: 10px;
   box-sizing: border-box;
-  background-color: #1f2937;
+  background-color: #00010de5;
   border-radius: 8px;
   text-align: start;
   height: 70px;
