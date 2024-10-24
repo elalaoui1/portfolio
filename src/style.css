@@ -65,6 +65,16 @@ button:focus-visible {
   text-align: center;
 }
 
+.hero-all{
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-all .wrapper img{
+  position: relative;
+    top: -35px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
