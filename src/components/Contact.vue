@@ -26,7 +26,11 @@
               <div class="my-3 sent-success">
                 <div class="sent-message" ref="sent-message"><i class='bx bx-message-check'></i>Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center mt-5"><button type="submit">Send Message <span class="loading" ref="loading"><img src="/assets/img/lo.gif" width="25" alt=""></span></button></div>
+              <div class="text-center mt-5"><button type="submit">
+                <i class='bx bx-mail-send' ></i>
+                Send Message 
+                <span class="loading" ref="loading"><img src="/assets/img/lo.gif" width="25" alt=""></span>
+              </button></div>
             </form>
 
           </div>
@@ -81,6 +85,11 @@ mounted() {
 
 #main{
   width: 900px;
+}
+.contact{
+  background: #00010D;
+  padding: 50px;
+  border-radius: 1.5rem;
 }
 .contact .container form input ,.contact .container form textarea{
   background: transparent;
