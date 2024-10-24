@@ -366,6 +366,10 @@ h6 {
     .wrapper img{
       width: 200px;
     }
+    .wrapper .circle{
+      width: 270px;
+      height: 270px;
+    }
   }
 }
 
@@ -409,6 +413,10 @@ h6 {
     padding: 25px;
     /* padding-left: 160px; */
    }
+   .wrapper .circle{
+    transform: translate(-50%, -30%);
+
+  }
    
 }
 @media (min-width: 821px) and (max-width: 991px) {
