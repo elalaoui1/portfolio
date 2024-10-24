@@ -844,6 +844,9 @@ section {
   .projects_skills {
     height: 25px; /* adjust height of skills on mobile */
   }
+  .projects_cards:last-child{
+    margin-bottom: 55px;
+  }
 }
 
 /*--------------------------------------------------------------
