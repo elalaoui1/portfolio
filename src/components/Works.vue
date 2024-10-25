@@ -39,7 +39,7 @@ export default {
           img: '/assets/img/project_Img/defp.jpg',
           name: 'D-DEF SaaS',
           description: 'Manage your school effortlessly with tools for schedules, rooms, and trainers...',
-          skills: ['/assets/img/icons/laravel.svg', '/assets/img/icons/bootstrap.svg',],
+          skills: ['/assets/img/icons/laravel.svg', '/assets/img/icons/bootstrap.svg','/assets/icons/jquery.svg','/assets/icons/mysql.svg'],
           link: 'https://etabhub.com/',
           cpt: 10
         },
@@ -48,9 +48,18 @@ export default {
           img: '/assets/img/project_Img/moroccoglimpsee.png',
           name: 'Morocco Glimpse',
           description: 'Explore Morocco’s hidden gems with unique, unforgettable tours. and landscapes.',
-          skills: ['/assets/img/icons/laravel.svg', '/assets/img/icons/Livewire.svg', '/assets/img/icons/bootstrap.svg'],
+          skills: ['/assets/img/icons/laravel.svg', '/assets/img/icons/Livewire.svg', '/assets/img/icons/bootstrap.svg','/assets/icons/mysql.svg'],
           link: 'https://www.moroccoglimpse.com/',
           cpt:50
+        },
+        {
+          id: 3,
+          img: '/assets/img/project_Img/medicareplusee.png',
+          name: 'MedicarePlus',
+          description: 'MedicarePlus: Your all-in-one solution for efficient, secure healthcare management.',
+          skills: ['/assets/img/icons/laravel.svg', '/assets/icons/jquery.svg', '/assets/img/icons/bootstrap.svg','/assets/icons/mysql.svg'],
+          link: 'https://medicareplus.ma/',
+          cpt:100
         },
       ]
     }
