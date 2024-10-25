@@ -37,7 +37,7 @@ export default {
         {
           id: 1,
           img: '/assets/img/project_Img/defp.jpg',
-          name: 'D-DEF SaaS',
+          name: 'D-EFP SaaS',
           description: 'Manage your school effortlessly with tools for schedules, rooms, and trainers...',
           skills: ['/assets/img/icons/laravel.svg', '/assets/img/icons/bootstrap.svg','/assets/icons/jquery.svg','/assets/icons/mysql.svg'],
           link: 'https://etabhub.com/',
