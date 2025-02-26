@@ -61,6 +61,15 @@ export default {
           link: 'https://medicareplus.ma/',
           cpt:100
         },
+        {
+          id: 3,
+          img: '/assets/img/project_Img/iFoods.png',
+          name: 'iFoods',
+          description: 'Your ultimate restaurant website for a seamless, modern, and engaging dining experience.',
+          skills: ['/assets/icons/wordpress.svg','/assets/icons/elementor.svg','/assets/icons/mysql.svg'],
+          link: 'http://ifoods.atwebpages.com/',
+          cpt:100
+        },
       ]
     }
   }

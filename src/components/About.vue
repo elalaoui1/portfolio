@@ -38,7 +38,10 @@ data() {
     {name: 'GIT', icon: '/assets/icons/git.svg' ,cpt: 120},
     {name: 'GITHUB', icon: '/assets/icons/github.svg' ,cpt: 130},
     {name: 'STACK OVERFLOW', icon: '/assets/icons/stack-overflow.svg' ,cpt: 140},
-    {name: 'LINUX', icon: '/assets/icons/linux.svg',cpt:150},],
+    {name: 'LINUX', icon: '/assets/icons/linux.svg',cpt:150},
+    {name: 'WORDPRESS', icon: '/assets/icons/wordpress.svg',cpt:160},
+    {name: 'ELEMENTOR', icon: '/assets/icons/elementor.svg',cpt:170},
+  ],
   };
 },
 }
